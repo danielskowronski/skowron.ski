@@ -1,0 +1,81 @@
+---
+title: "Daniel Skowroński [skowron.ski - personal homepage]"
+
+baseURL: "https://skowron.ski/"
+
+languageCode: "en-us"
+enableRobotsTXT: true
+
+buildDrafts: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+theme: blowfish
+
+menu:
+  main:
+    - identifier: tech-blog
+      name: tech blog
+      url: https://blog.dsinf.net/
+      weight: 20
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 20
+    - identifier: pro
+      name: for recruiters
+      url: https://skowronski.pro/
+      weight: 30
+
+deployment:
+  targets:
+    name: s3
+    URL: s3://skowron.ski?region=eu-central-1
+
+author:
+  name: "Daniel Skowroński"
+  image: "img/memoji.jpg"
+  headline: "[skowron.ski - personal homepage]"
+  links:
+    - github: "https://github.com/danielskowronski/"
+    - linkedin: "https://linkedin.com/in/daniel-skowronski/"
+    - blogger: "https://blog.dsinf.net/"
+    - blogger: "https://foto.dsinf.net/"
+    - keybase: "https://keybase.io/dskowronski"
+    - email: "mailto:daniel@skowron.ski"
+
+disableKinds:
+  - "taxonomy"
+  - "term"
+
+redirects:
+  - from: "/cv-partials/"
+    to: "/404.html"
+    status: 404
+
+params:
+  colorScheme: "blue"
+  defaultAppearance: "dark"
+
+  logo: "img/logo.png"
+
+  enableSearch: false
+
+  homepage:
+    layout: "profile"
+
+  article:
+    showEdit: false
+    showDate: false
+    showAuthor: false
+    showPagination: false
+    showReadingTime: false
+    showWordCount: false
+    sharingLinks: false
+
+  taxonomy:
+    showTermCount: false
+
