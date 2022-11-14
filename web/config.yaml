@@ -1,5 +1,5 @@
 ---
-title: "Daniel Skowroński [skowron.ski - personal homepage]"
+title: "[skowron.ski - personal homepage]"
 
 baseURL: "https://skowron.ski/"
 
@@ -19,7 +19,7 @@ menu:
   main:
     - identifier: tech-blog
       name: tech blog
-      url: https://blog.dsinf.net/
+      url: https://skowronski.tech/
       weight: 20
     - identifier: contact
       name: contact
@@ -42,8 +42,7 @@ author:
   links:
     - github: "https://github.com/danielskowronski/"
     - linkedin: "https://linkedin.com/in/daniel-skowronski/"
-    - blogger: "https://blog.dsinf.net/"
-    - blogger: "https://foto.dsinf.net/"
+    - blogger: "https://skowronski.tech/"
     - keybase: "https://keybase.io/dskowronski"
     - email: "mailto:daniel@skowron.ski"
 
