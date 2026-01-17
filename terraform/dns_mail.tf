@@ -35,7 +35,7 @@ resource "cloudflare_record" "apple_verify" {
   zone_id = var.cf_zone_id
   name    = var.dns_zone_name
   type    = "TXT"
-  value   = "apple-domain=vFFz5YCpH5Cw2UCk"
+  value   = "apple-domain=SY0xuh9VMJabUzbr"
 }
 
 resource "cloudflare_record" "ms_verify" {
